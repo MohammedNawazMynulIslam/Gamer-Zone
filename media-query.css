@@ -1,25 +1,53 @@
 /* for mobile device */
 @media only screen and (max-width: 425px) {
-    nav,
-    .nav-icon,
-    .menu,
+
+    header{
+        height: 500px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .nav-icon{
+        margin-top: 10px;
+        padding: 10px 0;
+        width: 100%;
+    }
+    .gamer,
+    .G{
+       font-size: 1rem;
+    }
+    .nav-icon>img{
+        width: 86px;
+        height: 40px;
+        margin-bottom: 1px;
+    }
+    .menu>ul{
+        padding: 0;
+        flex-direction: column;
+    }
+
+
     .online-games-container{
         flex-direction: column;
         padding: 0;
         margin-top: 10px;
     }
+
     .play-container,
     .play-games-container{
         flex-direction: column-reverse;
 
     }
+    .play-picture{
+        width: 100%;
+        margin: 0 auto;
+    }
     .play-picture>img{
-        width: 300px;
-        margin: 300px 100px 20px 300px;
+        width: 80%;
+        margin-left: 30px;
     }
     .play-content{
         width: 80%;
-        height: 250px;
         padding: 50px;
         background-image: url("./Group\ 14.png");
         margin-top: -100px;
@@ -114,7 +142,7 @@
     }
     /* footer */
     footer{
-        width: 500px;
+        width: 100%;
     }
     .footer-list>ul{
         display: grid;
@@ -140,7 +168,7 @@
     }
     .footer-copyright>p{
         margin: 0 auto;
-        width: 35%;
+        width: 40%;
        text-align: center;
        font-size: 1rem;
        }
@@ -150,11 +178,15 @@
 @media only screen and (min-width: 426px) and (max-width:768px) {
     nav,
     .nav-icon,
-    .menu,
     .online-games-container{
         flex-direction: column;
         padding: 0;
         margin-top: 10px;
+    }
+    .menu>ul{
+        flex-direction: column;
+        margin-left: 250px;
+
     }
     .play-container{
         flex-direction: column-reverse;
