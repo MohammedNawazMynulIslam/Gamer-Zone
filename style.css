@@ -199,7 +199,15 @@ gap: 10px;
    margin-bottom: 35px;
 }
 .card{
+    height: 400px;
+    width: 400px;
     position: relative;
+    transition: border-color 0.3s, opacity 0.3s;
+}
+.card>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .overlay{
@@ -219,6 +227,10 @@ gap: 10px;
 }
 .overlay i{
     font-size: 50px;
+}
+.card:hover {
+    border: 5px solid #ccc;
+    border-color: #F948B2;
 }
 
 .card:hover .overlay {
