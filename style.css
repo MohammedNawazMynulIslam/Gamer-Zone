@@ -233,8 +233,8 @@ gap: 10px;
 .watch{
     display: none;
     position: absolute;
-    right: 130px;
-    bottom: 50px;
+    right: 140px;
+    bottom: 120px;
     color: #FFF;
     font-size: 1rem;
 }
@@ -250,6 +250,7 @@ gap: 10px;
 }
 .card .watch{
     display: block;
+    color: #F948B2;
 }
 
 
