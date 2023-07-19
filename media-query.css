@@ -7,6 +7,37 @@
         padding: 0;
         margin-top: 10px;
     }
+    .play-container{
+        flex-direction: column-reverse;
+    }
+    .play-picture>img{
+        width: 300px;
+        margin: 300px 100px 20px 300px;
+    }
+    .play-content{
+        width: 80%;
+        height: 250px;
+        padding: 50px;
+        background-image: url("./Group\ 14.png");
+        margin-top: -100px;
+    }
+    .play-title,    .play-subtitle{
+        font-size: 2rem;
+    }
+    .play-list{
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    .sign-in-btn{
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+    .go-rogue-btn{
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
+
 
 }
 @media only screen and (min-width: 425px) and (max-width:768px) {
@@ -17,5 +48,35 @@
         padding: 0;
         margin-top: 10px;
     }
+    .play-container{
+        flex-direction: column-reverse;
+    }
+    .play-picture>img{
+        width: 300px;
+        margin: 300px 100px 20px 300px;
+    }
+    .play-content{
+        width: 80%;
+        height: 300px;
+        padding: 50px;
+        background-image: url("./images/Group\ 14.png");
+        margin-top: -100px;
+    }
+    .play-title,    .play-subtitle{
+        font-size: 3rem;
+    }
+    .play-list{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .sign-in-btn{
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+    .go-rogue-btn{
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
 
 }
