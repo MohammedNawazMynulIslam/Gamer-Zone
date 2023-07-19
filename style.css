@@ -38,6 +38,7 @@ cursor: pointer;
     color: #FF42A5;
 }
 
+
 .menu>ul{
     display: flex;
     list-style: none;
@@ -123,6 +124,7 @@ text-transform: lowercase;
     color: #FFF;
     font-size: 1rem;
     text-transform: uppercase;
+    cursor: pointer;
 
 }
 .go-rogue-btn{
@@ -136,6 +138,7 @@ text-transform: lowercase;
     font-size: 1rem;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
 }
 .play-list{
     text-decoration: none;
@@ -227,6 +230,14 @@ gap: 10px;
     opacity: 0;
     transition: opacity 0.3s;
 }
+.watch{
+    display: none;
+    position: absolute;
+    right: 130px;
+    bottom: 50px;
+    color: #FFF;
+    font-size: 1rem;
+}
 .overlay i{
     font-size: 50px;
 }
@@ -234,9 +245,11 @@ gap: 10px;
     border: 5px solid #ccc;
     border-color: #F948B2;
 }
-
 .card:hover .overlay {
     opacity: 1;
+}
+.card .watch{
+    display: block;
 }
 
 
