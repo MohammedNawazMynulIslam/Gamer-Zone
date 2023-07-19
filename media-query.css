@@ -1,0 +1,21 @@
+/* for mobile device */
+@media only screen and (max-width: 425px) {
+    nav,
+    .nav-icon,
+    .menu{
+        flex-direction: column;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+}
+@media only screen and (min-width: 425px) and (max-width:768px) {
+    nav,
+    .nav-icon,
+    .menu{
+        flex-direction: column;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+}

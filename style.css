@@ -2,4 +2,70 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;900&family=Lato:wght@400;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;700;900&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    height: 130px;
+
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0 40px 200px;
+}
+.nav-icon>img{
+    width: 86px;
+    height: 40px;
+}
+
+.gamer{
+text-align: center;
+font-size: 2.8rem;
+font-weight: 700;
+}
+.G{
+    color: #FF42A5;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 35px 240px 35px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+li a {
+    text-decoration:none ;
+    color: #3C354F;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.nav-btn{
+    padding: 15px 50px 15px 24px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border : none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-youtube{
+color: red;
 }
