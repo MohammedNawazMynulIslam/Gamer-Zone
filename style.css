@@ -260,5 +260,27 @@ background-clip: text;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 30px;
+}
 
+/* game collection */
+
+.collection-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.game-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.game-collection p{
+color: #0B0223;
+font-size: 1.2rem;
+font-weight: 600;
 }
