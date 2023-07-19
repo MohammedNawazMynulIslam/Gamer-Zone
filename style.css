@@ -65,6 +65,7 @@ li a {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .fa-youtube{
@@ -146,14 +147,118 @@ text-transform: lowercase;
     margin-bottom: 20px;
 }
 .play-picture{
-
     margin-right: 200px;
     position: relative;
     bottom:  100px;
+}
+
+/* online games */
+.online-games-title{
+color: #0B0223;
+text-align: center;
+font-size: 3rem;
+font-weight: 700;
 
 }
-/* .play-picture>img{
-   height: 800px;
-   margin: 10px 200px 0px 60px;
+.Funny-video{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 3rem;
+font-weight: 700;
+}
+.online-games-subtitle{
+color: #534C64;
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+line-height: 30px;
+}
 
-} */
+.online-games-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+figcaption{
+width: 80%;
+color: #534C64;
+font-size: 1.2rem;
+font-weight: 500;
+line-height: 30px;
+}
+
+.game-1{
+gap: 10px;
+}
+.game-3{
+   margin-bottom: 35px;
+}
+.card:hover{
+border-radius: 16px;
+border: #FF42A5;
+/* background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("./play-button.jpg"), lightgray 50% / cover no-repeat; */
+/* background-position: center;
+background-repeat: no-repeat;
+background-size:contain; */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* play games */
+.play-games-container{
+    margin: 120px auto;
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.first-img{
+    width: 600px;
+    height: 550px;
+    display: block;
+}
+.second-img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: -100px;
+    margin-left: 500px;
+}
+.play-games-content>h2{
+    width: 30%;
+}
+
+.play-game{
+font-size: 2.3rem;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.anywhere{
+    color: #0B0223;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.play-games-content>p{
+    width: 40%;
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+
+}
